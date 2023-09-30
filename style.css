@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    background-color: white;
+
+}
+
+span{
+  margin-right:-5px ;
+}
+
+.timer{
+    width: 500px;
+    height: 300px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+#controls{
+    text-align: center;
+}
+
+#controls button{
+    text-align: center;
+    border: none;
+    background-color: white;
+
+}
+
+
+.timer2 {
+    font-size:100px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#controlsSounds{
+    columns: 2;
+    column-gap: 32px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+button{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#controlsSounds button{
+    margin-bottom: 32px;
+    border: none;
+}
+
+.ph-play-circle, .ph-pause-circle, .ph-stop-circle, .ph-plus-circle, .ph-minus-circle, .ph-timer{
+    font-size: 4rem;
+}
+
+.ph-tree, .ph-cloud-rain, .ph-storefront, .ph-fire{
+    font-size: 7rem;
+}
+
+.musicOn{
+    background-color: rgba(122, 160, 209, 0.969); 
+}
